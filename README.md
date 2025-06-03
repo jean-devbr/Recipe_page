@@ -1,2 +1,2 @@
 # Recipe_page
-Site para receita 
+Página para uma receita
