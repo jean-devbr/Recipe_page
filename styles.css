@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    height: 70vh;
+}
+#elemento_pai {
+    background-color: #fff;
+    height: 50vh;
+    width: 70vh;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    flex-flow: column wrap;
+    padding: 10px;
+}
+header {
+    padding: 20px;
+    
+}
+img {
+    width: 60vh;
+    border-radius: 10px;
+}
+main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.preparo {
+    background-color: red;
+    height: auto;
+    
+    
+}
