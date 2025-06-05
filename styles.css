@@ -6,47 +6,92 @@
 body {
     background: hsl(30, 54%, 90%);
     display: flex;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    flex-flow: column wrap;
-    height: 70vh;
+    
 }
 #elemento_pai {
     background-color: #fff;
     height: auto;
-    width: 70vh;
+    width: 45vh;
     display: flex;
     align-items: center;
     border-radius: 10px;
     flex-flow: row wrap;
-    padding: 10px;
-    
-}
-header {
-    padding: 20px;
-    
+    padding: 2vh;
+    margin-top: 50px;  
 }
 img {
-    width: 60vh;
+    width: 40vh;
     border-radius: 10px;
 }
-
 .preparo {
+    
     background-color: hsl(330, 100%, 98%);
-    height: 10vh;
+    height: 30vh;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     padding: 2vh;
     flex-direction: column;
-    gap: 10px;
+    gap: 25px;
+    margin-top: 20px;
 
 }
 h3 {
+    
     color: hsl(332, 51%, 32%);
     margin-top: 20px;
 }
 ul {
     margin-left: 40px;
+}
+li {
+    padding: 10px;
 
+}
+
+h2 {
+    margin-top: 20px;
+    color: hsl(14, 45%, 36%);
+}
+ol ::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+.lista_instrustions {
+    margin-left: 30px;
+}
+.ultima_frase {
+    margin-top: 20px;
+    margin-left: 8px;
+}
+.classificacao {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    
+}
+.medida {
+    margin-right: 100px;
+    align-self: center;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+.medida_1 {
+    margin-right: 135px;
+    align-self: center;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+.medida_2 {
+    margin-right: 129px;
+    align-self: center;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+hr {
+    font-weight: 1000;
 }
