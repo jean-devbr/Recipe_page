@@ -13,13 +13,14 @@ body {
 }
 #elemento_pai {
     background-color: #fff;
-    height: 50vh;
+    height: auto;
     width: 70vh;
     display: flex;
     align-items: center;
     border-radius: 10px;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     padding: 10px;
+    
 }
 header {
     padding: 20px;
@@ -29,14 +30,23 @@ img {
     width: 60vh;
     border-radius: 10px;
 }
-main {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-}
+
 .preparo {
-    background-color: red;
-    height: auto;
-    
-    
+    background-color: hsl(330, 100%, 98%);
+    height: 10vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 2vh;
+    flex-direction: column;
+    gap: 10px;
+
+}
+h3 {
+    color: hsl(332, 51%, 32%);
+    margin-top: 20px;
+}
+ul {
+    margin-left: 40px;
+
 }
